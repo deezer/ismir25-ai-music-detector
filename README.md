@@ -1,8 +1,16 @@
 # AI-Music Detection
 
-Code of our ISMIR 2025 paper "A Fourier Explanation of AI-music Artifacts" - D. Afchar, G. Meseguer Brocal, R. Hennequin.
+Code of our ISMIR 2025 paper "A Fourier Explanation of AI-music Artifacts" - D. Afchar, G. Meseguer Brocal, K. Akesbi and R. Hennequin.
 
-This work was awarded best paper at ISMIR 2025! :party:
+:champagne: This work was awarded best paper at ISMIR 2025! :champagne:
+
+## Links
+
+You may find the **arxiv** upload of the paper here: [arxiv.org/abs/2506.19108](https://arxiv.org/abs/2506.19108)
+
+Watch the **video** replay here: [youtube.com/watch?v=7RN3lsdFIf0](https://www.youtube.com/watch?v=7RN3lsdFIf0)
+
+You may find the abstract, paper, **poster**, slides and **reviews** of our paper on the ISMIR website: [P7-1: A Fourier Explanation of AI-music Artifacts](https://ismir2025program.ismir.net/poster_229.html)
 
 ## Note on the context
 
@@ -34,3 +42,7 @@ If you use this work in your research, please cite
   address   = {Daejeon, South Korea}
 }
 ```
+
+### Acknowledgements
+
+Special thanks to Kamil to having corrected a `F` into a `1/F`in the equations.
