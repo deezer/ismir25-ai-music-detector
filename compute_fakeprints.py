@@ -99,8 +99,9 @@ if __name__ == "__main__":
     # Create a dictionnary of fakeprints
     fakeprints = {}
     x_freqs = np.linspace(0, args.sr / 2, num = (N_FFT//2)+1 )
-    f_list = glob(os.path.join(args.path, "*.mp3" ))
-    print("found {} files in `{}`".format(len(f_list), args.path))
+    path_mp3 = os.path.join(args.path, "*.mp3" )
+    f_list = glob(path_mp3)
+    print("found {} files in `{}`".format(len(f_list), path_mp3 ))
 
     n_completed = 0
     for f in tqdm(f_list):
