@@ -29,6 +29,11 @@ This work is licensed under the **CC BY-NC 4.0**.
 It has led to the application for two patents in December 2024 to detect synthetic content. The code in this repository and derivatives hence can only be used for research, without commercial purpose.
 For any commercial applications, please contact: `research@deezer.com`.
 
+## Dataset
+
+For the experiment using the [FMA](https://github.com/mdeff/fma), we use the same split and data as in [https://github.com/deezer/deepfake-detector](https://github.com/deezer/deepfake-detector). Namely, the split file can be found [here](https://github.com/deezer/deepfake-detector/blob/main/data/dataset_medium_split.npy).
+
+For the [SONICS](https://github.com/awsaf49/sonics) experiments, we use the same splits as the authors. The split file is provided [there](https://github.com/deezer/ismir25-ai-music-detector/blob/main/sonics/sonics_split.npy).
 
 ## Citation
 If you use this work in your research, please cite 
